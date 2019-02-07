@@ -1,7 +1,6 @@
 package de.domisum.mattp.request;
 
 import de.domisum.lib.auxilium.util.java.annotations.API;
-import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
