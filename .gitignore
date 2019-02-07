@@ -1,0 +1,12 @@
+*.classpath
+*.project
+*.iml
+*.log
+*.jsonLog
+.directory
+
+.settings/
+.idea/
+target/
+
+TestLauncher.java
