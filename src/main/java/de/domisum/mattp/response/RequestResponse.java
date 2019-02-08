@@ -26,6 +26,7 @@ public interface RequestResponse<T>
 	@API
 	Optional<String> getErrorMessage();
 
+	@API
 	default void throwExceptionIfFailed(String message) throws IOException
 	{
 		if(isSuccess())
